@@ -64,9 +64,9 @@ class PatientBookingRepositoryTest {
 		
 		//delete one booking in DB
 		testEntityManager.remove(pBook);
-		
+		//to do
 		//List<PatientBooking> pBook2 = (List<PatientBooking>) pbRepository.findAll();
-		  // Assert.assertEquals(pBook2.size(), 1);
+		  //Assert.assertEquals(pBook2.size(), 1);
 		}
 	
 	@Test
